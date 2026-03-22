@@ -123,10 +123,20 @@ def export_channel():
         print(f"📥  Загрузка страницы: {current_url}")
         try:
             r = session.get(current_url, timeout=30)
+            print(f"📡  Статус ответа: {r.status_code}")
+            if r.status_code != 200:
+                print(f"⚠️  Внимание: сервер вернул код {r.status_code}")
+                # Print snippet of the body if it's an error
+                print(f"📄  Начало ответа (500 симв.): {r.text[:500]}")
             r.raise_for_status()
         except Exception as e:
             print(f"❌  Ошибка получения страницы: {e}")
-            break
+            if len(all_posts) > 0:
+                print(f"⚠️  Критическая ошибка, но у нас есть {len(all_posts)} постов. Продолжаем сохранение.")
+                break
+            else:
+                print("💀  Критическая ошибка на первой странице. Прерываемся.")
+                sys.exit(1)
 
         soup = BeautifulSoup(r.text, 'html.parser')
         
@@ -136,6 +146,9 @@ def export_channel():
             
         messages = soup.find_all('div', class_='tgme_widget_message')
         if not messages:
+            print("📭  На странице не найдено сообщений (tgme_widget_message).")
+            # Maybe it's a redirection or blocking page?
+            print(f"📄  HTML страницы (500 симв.): {r.text[:500]}")
             break
             
         # Parse messages from newest to oldest on the page (bottom up)
