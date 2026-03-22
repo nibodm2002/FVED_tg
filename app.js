@@ -12,6 +12,7 @@
     dataBasePath:   'data/channels',
     postsPerPage:   20,
     channelUrl:     'https://t.me/firmaved',
+    fallbackLogo:   'assets/favicon.svg'
   };
 
   /* ---------- State ---------- */
@@ -403,10 +404,11 @@
 
     if (ch.avatar) {
       dom.avatar.src = ch.avatar;
+      dom.avatar.classList.remove('is-logo');
       dom.avatarWrap.style.display = '';
     } else {
-      // Fallback to local VED icon if channel avatar is missing
-      dom.avatar.src = 'assets/favicon.svg';
+      dom.avatar.src = CONFIG.fallbackLogo;
+      dom.avatar.classList.add('is-logo');
       dom.avatarWrap.style.display = '';
     }
 
