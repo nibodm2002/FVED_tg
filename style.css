@@ -483,6 +483,7 @@ a, button, input, label, [role="button"] {
   align-items: center;
   gap: 6px;
   transition: color var(--transition);
+  margin-left: auto;
 }
 
 .post-card__tg-link:hover {

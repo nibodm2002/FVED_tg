@@ -243,17 +243,18 @@ def export_channel():
         print(f"  📝  Спарсено постов: {len(all_posts)}")
         
         # Pagination: Find 'older posts' link
-        older_link = soup.find('a', class_='tme_messages_more')
+        older_link = soup.find('a', class_='tgme_messages_more')
         if older_link and older_link.has_attr('href'):
             next_url = older_link['href']
+            print(f"  🔗  Найдена ссылка на старые посты: {next_url}")
             # Sometimes it's absolute, sometimes relative
             if next_url.startswith('/'):
                 current_url = f"https://t.me{next_url}"
             else:
                 current_url = f"https://t.me/s/{CHANNEL}{next_url}"
-            time.sleep(1) # slight delay to avoid rate limiting
+            time.sleep(2) # slightly longer delay to avoid rate limiting
         else:
-            print("  🏁  Достигнут конец истории канала (больше нет ссылки 'старые посты')")
+            print("  🏁  Достигнут конец истории канала на этой странице (нет ссылки 'старые посты')")
             break
 
     # We collected posts going backwards (newest -> oldest). 

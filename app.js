@@ -55,28 +55,6 @@
     return div.innerHTML;
   }
 
-  function formatDate(dateStr) {
-    try {
-      const d = new Date(dateStr);
-      const now = new Date();
-      const diffMs = now - d;
-      const diffH = diffMs / 3600000;
-
-      if (diffH < 1) {
-        const m = Math.floor(diffMs / 60000);
-        return m <= 1 ? 'Только что' : `${m} мин назад`;
-      }
-      if (diffH < 24) {
-        return `${Math.floor(diffH)} ч назад`;
-      }
-
-      const opts = { day: 'numeric', month: 'long' };
-      if (d.getFullYear() !== now.getFullYear()) opts.year = 'numeric';
-      return d.toLocaleDateString('ru-RU', opts);
-    } catch {
-      return dateStr;
-    }
-  }
 
   function formatViews(n) {
     if (!n) return '';
@@ -265,10 +243,6 @@
         <div class="post-card__text">${textHtml}</div>
       </div>
       <div class="post-card__footer">
-        <span class="post-card__date">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          ${formatDate(post.date)}
-        </span>
         ${viewsHtml}
         <a class="post-card__tg-link" href="${escapeHtml(tgUrl)}" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13"/><path d="m22 2-7 20-4-9-9-4 20-7Z"/></svg>
