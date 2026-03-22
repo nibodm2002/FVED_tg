@@ -40,7 +40,7 @@
     errorState:   $('#errorState'),
     loadMoreBtn:  $('#loadMoreBtn'),
     refreshBtn:   $('#refreshBtn'),
-    installBtn:   $('#installBtn'),
+    installAppBtn:$('#installAppBtn'),
     themeBtn:     $('#themeBtn'),
     updatedText:  $('#updatedText'),
     lightbox:     $('#lightbox'),
@@ -429,10 +429,10 @@
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
-    dom.installBtn.classList.remove('hidden');
+    dom.installAppBtn.classList.remove('hidden');
   });
 
-  dom.installBtn.addEventListener('click', async () => {
+  dom.installAppBtn.addEventListener('click', async () => {
     if (!deferredPrompt) return;
     deferredPrompt.prompt();
     const { outcome } = await deferredPrompt.userChoice;
@@ -440,7 +440,7 @@
       showToast('Приложение установлено!');
     }
     deferredPrompt = null;
-    dom.installBtn.classList.add('hidden');
+    dom.installAppBtn.classList.add('hidden');
   });
 
   /* ---------- Service Worker ---------- */
