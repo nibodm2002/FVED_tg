@@ -429,6 +429,13 @@
 
   /* ---------- PWA Install ---------- */
   let deferredPrompt = null;
+  const isIos = /ipad|iphone|ipod/.test(navigator.userAgent.toLowerCase()) && !window.MSStream;
+  const isStandalone = window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches;
+
+  // Show "Install" button on iOS explicitly since it doesn't fire beforeinstallprompt
+  if (isIos && !isStandalone) {
+    dom.installAppBtn.classList.remove('hidden');
+  }
 
   window.addEventListener('beforeinstallprompt', (e) => {
     console.log('✨ PWA installable!');
@@ -438,14 +445,17 @@
   });
 
   dom.installAppBtn.addEventListener('click', async () => {
-    if (!deferredPrompt) return;
-    deferredPrompt.prompt();
-    const { outcome } = await deferredPrompt.userChoice;
-    if (outcome === 'accepted') {
-      showToast('Приложение установлено!');
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      if (outcome === 'accepted') {
+        showToast('Приложение установлено!');
+      }
+      deferredPrompt = null;
+      dom.installAppBtn.classList.add('hidden');
+    } else if (isIos && !isStandalone) {
+      alert('Чтобы установить приложение на iOS:\n1. Нажмите кнопку «Поделиться» (квадрат со стрелочкой) в меню браузера.\n2. Выберите пункт «На экран "Домой"».');
     }
-    deferredPrompt = null;
-    dom.installAppBtn.classList.add('hidden');
   });
 
   /* ---------- Service Worker ---------- */
