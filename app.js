@@ -8,11 +8,11 @@
 
   /* ---------- Configuration ---------- */
   const CONFIG = {
-    channelKey:     'firmaved',
-    dataBasePath:   'data/channels',
-    postsPerPage:   20,
-    channelUrl:     'https://t.me/firmaved',
-    fallbackLogo:   'assets/favicon.svg'
+    channelKey: 'firmaved',
+    dataBasePath: 'data/channels',
+    postsPerPage: 20,
+    channelUrl: 'https://t.me/firmaved',
+    fallbackLogo: 'assets/favicon.svg'
   };
 
   /* ---------- State ---------- */
@@ -20,7 +20,7 @@
     channel: null,
     posts: [],
     currentPage: 0,
-    totalPages: 1,
+    hasMore: true,
     isLoading: false,
   };
 
@@ -29,24 +29,24 @@
   const $$ = (sel) => document.querySelectorAll(sel);
 
   const dom = {
-    shell:        $('#siteShell'),
-    title:        $('#siteTitle'),
-    description:  $('#siteDescription'),
-    avatarWrap:   $('#channelAvatarWrap'),
-    avatar:       $('#channelAvatar'),
-    channelLink:  $('#channelLink'),
-    postFeed:     $('#postFeed'),
+    shell: $('#siteShell'),
+    title: $('#siteTitle'),
+    description: $('#siteDescription'),
+    avatarWrap: $('#channelAvatarWrap'),
+    avatar: $('#channelAvatar'),
+    channelLink: $('#channelLink'),
+    postFeed: $('#postFeed'),
     loadingState: $('#loadingState'),
-    emptyState:   $('#emptyState'),
-    errorState:   $('#errorState'),
-    loadMoreBtn:  $('#loadMoreBtn'),
-    refreshBtn:   $('#refreshBtn'),
-    installAppBtn:$('#installAppBtn'),
-    themeBtn:     $('#themeBtn'),
-    updatedText:  $('#updatedText'),
-    lightbox:     $('#lightbox'),
-    lightboxImg:  $('#lightboxImg'),
-    lightboxClose:$('#lightboxClose'),
+    emptyState: $('#emptyState'),
+    errorState: $('#errorState'),
+    loadMoreBtn: $('#loadMoreBtn'),
+    refreshBtn: $('#refreshBtn'),
+    installAppBtn: $('#installAppBtn'),
+    themeBtn: $('#themeBtn'),
+    updatedText: $('#updatedText'),
+    lightbox: $('#lightbox'),
+    lightboxImg: $('#lightboxImg'),
+    lightboxClose: $('#lightboxClose'),
   };
 
   /* ---------- Helpers ---------- */
@@ -290,7 +290,7 @@
     }
 
     // Show/hide load more
-    if (end < state.posts.length || state.currentPage < state.totalPages) {
+    if (end < state.posts.length || state.hasMore) {
       dom.loadMoreBtn.classList.remove('hidden');
     } else {
       dom.loadMoreBtn.classList.add('hidden');
@@ -338,7 +338,10 @@
 
       // Merge posts
       state.posts = data.posts || [];
-      state.totalPages = data.total_pages || 1;
+      state.hasMore = true;
+      if (data.posts && data.posts.length < CONFIG.postsPerPage) {
+        state.hasMore = false;
+      }
       state.currentPage = 1;
 
       // Update timestamp
@@ -383,13 +386,19 @@
       if (data.posts && data.posts.length > 0) {
         state.posts = state.posts.concat(data.posts);
         state.currentPage = nextPage;
-        if (data.total_pages) state.totalPages = data.total_pages;
+        if (data.posts.length < CONFIG.postsPerPage) {
+           state.hasMore = false;
+        } else {
+           state.hasMore = true;
+        }
         renderFeed(true);
       } else {
+        state.hasMore = false;
         dom.loadMoreBtn.classList.add('hidden');
       }
     } catch {
       // No more pages
+      state.hasMore = false;
       dom.loadMoreBtn.classList.add('hidden');
     } finally {
       state.isLoading = false;
@@ -463,7 +472,7 @@
 
   /* ---------- Service Worker ---------- */
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    navigator.serviceWorker.register('sw.js').catch(() => { });
   }
 
   /* ---------- Event Listeners ---------- */
