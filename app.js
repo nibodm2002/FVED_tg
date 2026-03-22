@@ -430,10 +430,11 @@
   /* ---------- PWA Install ---------- */
   let deferredPrompt = null;
   const isIos = /ipad|iphone|ipod/.test(navigator.userAgent.toLowerCase()) && !window.MSStream;
+  const isAndroid = /android/.test(navigator.userAgent.toLowerCase());
   const isStandalone = window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches;
 
-  // Show "Install" button on iOS explicitly since it doesn't fire beforeinstallprompt
-  if (isIos && !isStandalone) {
+  // Show "Install" button on mobile explicitly since native prompts can be unreliable
+  if ((isIos || isAndroid) && !isStandalone) {
     dom.installAppBtn.classList.remove('hidden');
   }
 
@@ -455,6 +456,8 @@
       dom.installAppBtn.classList.add('hidden');
     } else if (isIos && !isStandalone) {
       alert('Чтобы установить приложение на iOS:\n1. Нажмите кнопку «Поделиться» (квадрат со стрелочкой) в меню браузера.\n2. Выберите пункт «На экран "Домой"».');
+    } else if (isAndroid && !isStandalone) {
+      alert('Чтобы установить приложение на Android:\n1. Нажмите меню браузера (три точки в правом верхнем углу).\n2. Выберите «Установить приложение» или «Добавить на гл. экран».');
     }
   });
 
