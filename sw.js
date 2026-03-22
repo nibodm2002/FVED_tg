@@ -3,7 +3,7 @@
    Caches core shell and serves offline-first
    =================================================================== */
 
-const CACHE_NAME = 'ved-tg-v3';
+const CACHE_NAME = 'ved-tg-v4';
 const SHELL_FILES = [
     './',
     './index.html',

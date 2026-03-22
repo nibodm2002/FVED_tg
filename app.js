@@ -339,9 +339,6 @@
       // Merge posts
       state.posts = data.posts || [];
       state.hasMore = true;
-      if (data.posts && data.posts.length < CONFIG.postsPerPage) {
-        state.hasMore = false;
-      }
       state.currentPage = 1;
 
       // Update timestamp
