@@ -405,7 +405,9 @@
       dom.avatar.src = ch.avatar;
       dom.avatarWrap.style.display = '';
     } else {
-      dom.avatarWrap.style.display = 'none';
+      // Fallback to local VED icon if channel avatar is missing
+      dom.avatar.src = 'assets/favicon.svg';
+      dom.avatarWrap.style.display = '';
     }
 
     if (ch.channel_url) {
@@ -427,6 +429,7 @@
   let deferredPrompt = null;
 
   window.addEventListener('beforeinstallprompt', (e) => {
+    console.log('✨ PWA installable!');
     e.preventDefault();
     deferredPrompt = e;
     dom.installAppBtn.classList.remove('hidden');

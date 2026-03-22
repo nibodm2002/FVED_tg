@@ -81,8 +81,30 @@ def extract_channel_info(soup):
     desc_el = soup.find('div', class_='tgme_channel_info_description')
     desc = desc_el.get_text(separator='\n') if desc_el else ''
     
+    # Try multiple selectors for the avatar
+    avatar_url = None
+    
+    # 1. Main profile image if available
     avatar_el = soup.find('img', class_='tgme_page_photo_image')
-    avatar_url = avatar_el.get('src') if avatar_el else None
+    if avatar_el:
+        avatar_url = avatar_el.get('src')
+    
+    # 2. Header image (often has background-image)
+    if not avatar_url:
+        header_img_el = soup.select_one('.tgme_channel_info_header_img img')
+        if header_img_el:
+            avatar_url = header_img_el.get('src')
+            
+    # 3. Last resort: check style for background-image
+    if not avatar_url:
+        header_img_wrap = soup.find('div', class_='tgme_channel_info_header_img')
+        if header_img_wrap and 'style' in header_img_wrap.attrs:
+            style = header_img_wrap['style']
+            import re
+            match = re.search(r'url\([\'"]?(.*?)[\'"]?\)', style)
+            if match:
+                avatar_url = match.group(1)
+
     avatar_path = download_file(avatar_url, 'channel-avatar.jpg') if avatar_url else ''
     
     return {
