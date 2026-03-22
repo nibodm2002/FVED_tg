@@ -1,0 +1,18 @@
+{
+  "name": "Правовая фирма «ВЕД» | Telegram",
+  "short_name": "ВЕД",
+  "description": "Зеркало Telegram-канала правовой фирмы «ВЕД»",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f9",
+  "theme_color": "#25315e",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

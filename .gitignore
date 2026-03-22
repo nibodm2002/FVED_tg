@@ -1,0 +1,8 @@
+# VED Telegram Mirror
+
+# .gitignore
+*.session
+*.pyc
+__pycache__/
+.env
+node_modules/
