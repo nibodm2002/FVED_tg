@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T19:16:09.094811+00:00",
+  "generated_at": "2026-03-22T21:53:03.315937+00:00",
   "channel": {
     "title": "Фирма ВЕД | Юристы для бизнеса",
     "username": "firmaved",
@@ -21,7 +21,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/569",
-      "views": 49
+      "views": 51
     },
     {
       "id": 568,
@@ -30,7 +30,7 @@
       "text_html": "А пока вы определяетесь, продублируем нашу страничку <a href=\"https://vk.ru/firmaved\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">ВКонтакте,</a> где мы уже давно дублируем все новости.<br/><br/>Подписывайтесь!",
       "media": [],
       "tg_url": "https://t.me/firmaved/568",
-      "views": 54
+      "views": 56
     },
     {
       "id": 566,
@@ -167,7 +167,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/554",
-      "views": 295
+      "views": 296
     },
     {
       "id": 553,
