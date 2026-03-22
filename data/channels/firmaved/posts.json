@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T15:52:23.635579+00:00",
+  "generated_at": "2026-03-22T16:11:45.140570+00:00",
   "channel": {
     "title": "Фирма ВЕД | Юристы для бизнеса",
     "username": "firmaved",
@@ -21,7 +21,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/569",
-      "views": 34
+      "views": 35
     },
     {
       "id": 568,
@@ -68,7 +68,7 @@
       "media": [
         {
           "type": "video",
-          "url": "",
+          "url": "data/channels/firmaved/media/564_video.mp4",
           "thumbnail": "",
           "file_name": "564_video.mp4"
         }
@@ -106,7 +106,7 @@
       "media": [
         {
           "type": "video",
-          "url": "",
+          "url": "data/channels/firmaved/media/561_video.mp4",
           "thumbnail": "",
           "file_name": "561_video.mp4"
         }
