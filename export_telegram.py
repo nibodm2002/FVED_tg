@@ -228,6 +228,10 @@ def export_channel():
             # Videos
             video_wrap = msg.find('video')
             if video_wrap:
+                # Extract video source URL
+                video_src = video_wrap.get('src', '')
+
+                # Try thumbnail
                 thumb_el = msg.find('i', class_='tgme_widget_message_video_thumb')
                 thumb_url = ''
                 if thumb_el:
@@ -236,9 +240,16 @@ def export_channel():
                         thumb_url = match.group(1)
                 
                 local_thumb = download_file(thumb_url, f"{msg_id}_video_thumb.jpg") if thumb_url else ''
+
+                # Download video file
+                local_video = ''
+                if video_src:
+                    print(f"  🎬  Загрузка видео {msg_id}...")
+                    local_video = download_file(video_src, f"{msg_id}_video.mp4") or ''
+
                 media_list.append({
                     'type': 'video',
-                    'url': '', # Don't download large videos
+                    'url': local_video,
                     'thumbnail': local_thumb or '',
                     'file_name': f"{msg_id}_video.mp4"
                 })
