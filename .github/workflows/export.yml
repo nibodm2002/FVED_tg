@@ -27,7 +27,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/keepalive-workflow@v2
+      - name: Keep workflow alive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          date -u > .github/.keepalive
+          git add .github/.keepalive
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: keepalive $(date -u +%Y-%m-%d)"
+            git push
+          fi
 
   export:
     runs-on: ubuntu-latest
