@@ -128,6 +128,58 @@ def parse_message_views(views_str):
     except:
         return 0
 
+def fetch_comments(channel, post_id, session):
+    """Fetch comments for a post from Telegram embed discussion page."""
+    url = f"https://t.me/{channel}/{post_id}?embed=1&discussion=1&userpic=true"
+    comments = []
+    try:
+        r = session.get(url, timeout=30)
+        if r.status_code != 200:
+            return comments
+        soup = BeautifulSoup(r.text, 'html.parser')
+        
+        # Comments are inside .tgme_widget_message elements within discussion
+        messages = soup.find_all('div', class_='tgme_widget_message')
+        for msg in messages:
+            # Author name
+            author_el = msg.find('span', class_='tgme_widget_message_author_name')
+            if not author_el:
+                author_el = msg.find('a', class_='tgme_widget_message_author_name')
+            author = author_el.get_text(strip=True) if author_el else 'Аноним'
+            
+            # Comment text
+            text_el = msg.find('div', class_='tgme_widget_message_text')
+            text_html = ''.join(str(c) for c in text_el.contents) if text_el else ''
+            text_plain = text_el.get_text(separator=' ') if text_el else ''
+            
+            if not text_plain.strip():
+                continue
+            
+            # Date
+            date_el = msg.find('time')
+            date_str = date_el.get('datetime', '') if date_el else ''
+            
+            # Avatar
+            avatar_url = ''
+            avatar_el = msg.find('i', class_='tgme_widget_message_user_photo')
+            if avatar_el:
+                img_el = avatar_el.find('img')
+                if img_el:
+                    avatar_url = img_el.get('src', '')
+            
+            comments.append({
+                'author': author,
+                'text': text_plain,
+                'text_html': text_html,
+                'date': date_str,
+                'avatar': avatar_url,
+            })
+    except Exception as e:
+        print(f"  ⚠️  Ошибка загрузки комментариев для поста {post_id}: {e}")
+    
+    return comments
+
+
 def export_channel():
     ensure_dirs()
     print(f"🔌  Режим: Веб-парсинг (без API ключей)")
@@ -270,6 +322,14 @@ def export_channel():
             # Check if empty
             if not text_html and not media_list:
                 continue
+            
+            # Fetch comments for this post
+            print(f"  💬  Загрузка комментариев для поста {msg_id}...")
+            post_comments = fetch_comments(CHANNEL, msg_id, session)
+            if post_comments:
+                print(f"  💬  Найдено {len(post_comments)} комментариев")
+            
+            time.sleep(0.5)  # Rate limit for comment requests
                 
             post = {
                 'id': msg_id,
@@ -279,6 +339,7 @@ def export_channel():
                 'media': media_list,
                 'tg_url': f'https://t.me/{CHANNEL}/{msg_id}',
                 'views': views_count,
+                'comments': post_comments,
             }
             if fwd_info:
                 post['forwarded'] = fwd_info

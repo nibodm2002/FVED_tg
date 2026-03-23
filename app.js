@@ -206,6 +206,66 @@
     </a>`;
   }
 
+  /* ---------- Build Comments ---------- */
+  function formatCommentDate(dateStr) {
+    if (!dateStr) return '';
+    try {
+      const d = new Date(dateStr);
+      return d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'short' }) + ' ' +
+             d.toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' });
+    } catch {
+      return '';
+    }
+  }
+
+  function getInitials(name) {
+    if (!name) return '?';
+    const parts = name.trim().split(/\s+/);
+    if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
+    return parts[0][0].toUpperCase();
+  }
+
+  function buildComments(post) {
+    if (!post.comments || post.comments.length === 0) return '';
+
+    const count = post.comments.length;
+    const commentIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`;
+
+    let commentsHtml = '';
+    post.comments.forEach(c => {
+      const avatarHtml = c.avatar
+        ? `<img src="${escapeHtml(c.avatar)}" alt="" class="comment__avatar-img">`
+        : `<span class="comment__avatar-initials">${escapeHtml(getInitials(c.author))}</span>`;
+
+      const dateHtml = c.date ? `<span class="comment__date">${formatCommentDate(c.date)}</span>` : '';
+      const textHtml = c.text_html || (c.text ? escapeHtml(c.text) : '');
+
+      commentsHtml += `
+        <div class="comment">
+          <div class="comment__avatar">${avatarHtml}</div>
+          <div class="comment__body">
+            <div class="comment__header">
+              <span class="comment__author">${escapeHtml(c.author)}</span>
+              ${dateHtml}
+            </div>
+            <div class="comment__text">${textHtml}</div>
+          </div>
+        </div>`;
+    });
+
+    return `
+      <div class="post-card__comments">
+        <button class="comments__toggle" data-post-id="${post.id}">
+          ${commentIcon}
+          <span>Комментарии (${count})</span>
+          <svg class="comments__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="comments__list" id="comments-${post.id}" style="display:none;">
+          ${commentsHtml}
+        </div>
+      </div>`;
+  }
+
   /* ---------- Render Post Card ---------- */
   function renderPostCard(post) {
     const article = document.createElement('article');
@@ -250,6 +310,7 @@
           В Telegram
         </a>
       </div>
+      ${buildComments(post)}
     `;
 
     return article;
@@ -311,6 +372,20 @@
     } catch {
       showToast('Не удалось скопировать');
     }
+  });
+
+  /* ---------- Comment toggle handler ---------- */
+  dom.postFeed.addEventListener('click', (e) => {
+    const toggleBtn = e.target.closest('.comments__toggle');
+    if (!toggleBtn) return;
+
+    const postId = toggleBtn.dataset.postId;
+    const list = document.getElementById(`comments-${postId}`);
+    if (!list) return;
+
+    const isHidden = list.style.display === 'none';
+    list.style.display = isHidden ? '' : 'none';
+    toggleBtn.classList.toggle('is-open', isHidden);
   });
 
   /* ---------- Lightbox global handler ---------- */
