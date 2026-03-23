@@ -226,32 +226,45 @@
   }
 
   function buildComments(post) {
-    if (!post.comments || post.comments.length === 0) return '';
+    if (!post.comments) post.comments = [];
 
     const count = post.comments.length;
     const commentIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`;
 
     let commentsHtml = '';
-    post.comments.forEach(c => {
-      const avatarHtml = c.avatar
-        ? `<img src="${escapeHtml(c.avatar)}" alt="" class="comment__avatar-img">`
-        : `<span class="comment__avatar-initials">${escapeHtml(getInitials(c.author))}</span>`;
+    
+    if (count > 0) {
+      post.comments.forEach(c => {
+        const avatarHtml = c.avatar
+          ? `<img src="${escapeHtml(c.avatar)}" alt="" class="comment__avatar-img">`
+          : `<span class="comment__avatar-initials">${escapeHtml(getInitials(c.author))}</span>`;
 
-      const dateHtml = c.date ? `<span class="comment__date">${formatCommentDate(c.date)}</span>` : '';
-      const textHtml = c.text_html || (c.text ? escapeHtml(c.text) : '');
+        const dateHtml = c.date ? `<span class="comment__date">${formatCommentDate(c.date)}</span>` : '';
+        const textHtml = c.text_html || (c.text ? escapeHtml(c.text) : '');
 
-      commentsHtml += `
-        <div class="comment">
-          <div class="comment__avatar">${avatarHtml}</div>
-          <div class="comment__body">
-            <div class="comment__header">
-              <span class="comment__author">${escapeHtml(c.author)}</span>
-              ${dateHtml}
+        commentsHtml += `
+          <div class="comment">
+            <div class="comment__avatar">${avatarHtml}</div>
+            <div class="comment__body">
+              <div class="comment__header">
+                <span class="comment__author">${escapeHtml(c.author)}</span>
+                ${dateHtml}
+              </div>
+              <div class="comment__text">${textHtml}</div>
             </div>
-            <div class="comment__text">${textHtml}</div>
+          </div>`;
+      });
+    } else {
+      const fbUrl = post.tg_url ? escapeHtml(post.tg_url) : `${CONFIG.channelUrl}/${post.id}`;
+      commentsHtml = `
+        <div class="comment">
+          <div class="comment__body">
+            <div class="comment__text" style="color: var(--muted); font-size: 0.85rem; text-align: center; padding: 10px 0;">
+              Пока нет комментариев. Вы можете <a href="${fbUrl}?comment=1" target="_blank" rel="noopener">оставить комментарий в Telegram</a>.
+            </div>
           </div>
         </div>`;
-    });
+    }
 
     return `
       <div class="post-card__comments">
