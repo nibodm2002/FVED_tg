@@ -149,11 +149,24 @@ def fetch_comments(channel, post_id, session):
             
             # Comment text
             text_el = msg.find('div', class_='tgme_widget_message_text')
+            
+            # Remove quoted reply block to avoid duplicating text of the message being replied to
+            if text_el:
+                reply_el = text_el.find('a', class_='tgme_widget_message_reply')
+                if reply_el:
+                    reply_el.decompose()
+                
+                # Also remove any internal blockquote that acts as a reply
+                for blockquote in text_el.find_all('blockquote'):
+                    blockquote.decompose()
+            
             text_html = ''.join(str(c) for c in text_el.contents) if text_el else ''
             text_plain = text_el.get_text(separator=' ') if text_el else ''
             
-            if not text_plain.strip():
-                continue
+            if not text_plain.strip() and not msg.find('i', class_='tgme_widget_message_sticker'):
+                # If there's no text and no sticker, it might be an empty reply or unsupported media
+                if not text_html.strip():
+                    continue
             
             # Date
             date_el = msg.find('time')
@@ -247,6 +260,14 @@ def export_channel():
             
             # Text
             text_el = msg.find('div', class_='tgme_widget_message_text')
+            
+            if text_el:
+                reply_el = text_el.find('a', class_='tgme_widget_message_reply')
+                if reply_el:
+                    reply_el.decompose()
+                for blockquote in text_el.find_all('blockquote'):
+                    blockquote.decompose()
+                    
             text_html = ''.join(str(c) for c in text_el.contents) if text_el else ''
             text_plain = text_el.get_text(separator=' ') if text_el else ''
             
