@@ -148,20 +148,20 @@ def fetch_comments(channel, post_id, session):
             author = author_el.get_text(strip=True) if author_el else 'Аноним'
             
             # Comment text
-            text_el = msg.find('div', class_='tgme_widget_message_text')
+            # A message might contain multiple tgme_widget_message_text elements if it's a reply
+            # We want the one that is NOT inside a tgme_widget_message_reply block
+            text_el = None
+            for el in msg.find_all('div', class_='tgme_widget_message_text'):
+                if el.find_parent(class_=lambda x: x and ('tgme_widget_message_reply' in x or 'tgme_widget_message_forward' in x)):
+                    continue
+                text_el = el
+                break
             
-            # Remove quoted reply block to avoid duplicating text of the message being replied to
+            text_html = ''
+            text_plain = ''
             if text_el:
-                reply_el = text_el.find('a', class_='tgme_widget_message_reply')
-                if reply_el:
-                    reply_el.decompose()
-                
-                # Also remove any internal blockquote that acts as a reply
-                for blockquote in text_el.find_all('blockquote'):
-                    blockquote.decompose()
-            
-            text_html = ''.join(str(c) for c in text_el.contents) if text_el else ''
-            text_plain = text_el.get_text(separator=' ') if text_el else ''
+                text_html = ''.join(str(c) for c in text_el.contents)
+                text_plain = text_el.get_text(separator=' ')
             
             if not text_plain.strip() and not msg.find('i', class_='tgme_widget_message_sticker'):
                 # If there's no text and no sticker, it might be an empty reply or unsupported media
@@ -259,17 +259,18 @@ def export_channel():
             date_str = date_el.get('datetime') if date_el else ''
             
             # Text
-            text_el = msg.find('div', class_='tgme_widget_message_text')
-            
-            if text_el:
-                reply_el = text_el.find('a', class_='tgme_widget_message_reply')
-                if reply_el:
-                    reply_el.decompose()
-                for blockquote in text_el.find_all('blockquote'):
-                    blockquote.decompose()
+            text_el = None
+            for el in msg.find_all('div', class_='tgme_widget_message_text'):
+                if el.find_parent(class_=lambda x: x and ('tgme_widget_message_reply' in x or 'tgme_widget_message_forward' in x)):
+                    continue
+                text_el = el
+                break
                     
-            text_html = ''.join(str(c) for c in text_el.contents) if text_el else ''
-            text_plain = text_el.get_text(separator=' ') if text_el else ''
+            text_html = ''
+            text_plain = ''
+            if text_el:
+                text_html = ''.join(str(c) for c in text_el.contents)
+                text_plain = text_el.get_text(separator=' ')
             
             # Views
             views_el = msg.find('span', class_='tgme_widget_message_views')
