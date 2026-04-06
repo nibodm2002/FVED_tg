@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T06:21:42.450992+00:00",
+  "generated_at": "2026-04-06T11:57:54.379675+00:00",
   "channel": {
     "title": "Фирма ВЕД | Юристы для бизнеса",
     "username": "firmaved",
@@ -9,6 +9,29 @@
   },
   "total_pages": 1,
   "posts": [
+    {
+      "id": 582,
+      "date": "",
+      "text": "16 апреля Ольга Идзон выступит на Юридической неделе в Тюмени с темой «Налоговые последствия продажи доли в ООО или выхода из Общества». Если эта тема вам актуальна, пишите, разберем в канале!",
+      "text_html": "16 апреля Ольга Идзон выступит на Юридической неделе в Тюмени с темой «Налоговые последствия продажи доли в ООО или выхода из Общества».<br/><br/>Если эта тема вам актуальна, пишите, разберем в канале!",
+      "media": [
+        {
+          "type": "photo",
+          "url": "data/channels/firmaved/media/582_photo_0.jpg"
+        }
+      ],
+      "tg_url": "https://t.me/firmaved/582",
+      "views": 42,
+      "comments": [
+        {
+          "author": "A @vase4ka06",
+          "text": "Тема интересна, спасибо!",
+          "text_html": "Тема интересна, спасибо!",
+          "date": "2026-04-06T11:11:01+00:00",
+          "avatar": "https://cdn4.telesco.pe/file/GlYbBEUxNx9sOwILanTVv6k1g9pn2cs15A9mmKhu6-UygnAMeeVqtbj0vJYCOE-uH5WPVJoO-RCeV2St1Vdudtjf1zZGFXXMLP3tOLKEBkJg9yDV0VHCxiocZ_tDxVxabaqPUmH4_mJqWCMqHGTd0qkkRE8jD4j7KmmWMtF44VJ9A-CKEEvN6sWd8gjYk4EPFrpJwhORKvqRKFYstdTOECeBifW9EncAJfGGHLF8kDcyDYzWqwatssQlP84WsgxQN8zg2MNHaAnfhCj0-9oRbvjBhtUZkx9Ym8vW2Vd_o5g1nHMgrih8dAHCqPc1L-ZY1FJyATnI7HPi2gGalLKGfw.jpg"
+        }
+      ]
+    },
     {
       "id": 581,
       "date": "",
@@ -31,7 +54,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/580",
-      "views": 97,
+      "views": 126,
       "comments": []
     },
     {
@@ -41,7 +64,7 @@
       "text_html": "А пока вы определяетесь, куда бежать <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9881.png')\"><b>😁</b></i>, продублируем нашу страничку <a href=\"https://vk.ru/firmaved\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">ВКонтакте,</a> где мы уже давно дублируем все новости.",
       "media": [],
       "tg_url": "https://t.me/firmaved/579",
-      "views": 139,
+      "views": 153,
       "comments": []
     },
     {
@@ -61,7 +84,7 @@
       "text_html": "<b>Рост выездных проверок — налоговая возвращается к доначислениям</b><br/><br/><tg-emoji emoji-id=\"5224607267797606837\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29884.png')\"><b>☄️</b></i></tg-emoji> ФНС <a href=\"https://www.nalog.gov.ru/rn77/related_activities/statistics_and_analytics/forms/16246476/\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">зафиксировала</a> новый тренд налогового контроля: после нескольких лет снижения количества выездных проверок, в 2025 году этот показатель снова начал расти. По итогам 2025 года проведено 5 409 проверок против 4 896 годом ранее — рост около 12%.<br/><br/><b><tg-emoji emoji-id=\"5397782960512444700\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i></tg-emoji></b><b> Занимательная статистика ФНС</b><br/><br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>Рост происходит за счет увеличения проверок юридических лиц: их количество увеличились до 5 066, тогда как проверки физических лиц снизились почти вдвое — с 155 до 82.<br/><br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji> Средний размер доначислений по организациям — около 92 млн рублей, при этом в отдельных регионах он достигает 250–275 млн рублей.<br/><br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji> В отношении индивидуальных предпринимателей проведено 261 проверка со средним доначислением 41,2 млн рублей.<br/><br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji> Почти каждая третья проверка проходит с участием правоохранительных органов, 78 проверок инициированы ими.<br/><br/><b><tg-emoji emoji-id=\"5231012545799666522\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i></tg-emoji></b> <b>О чем свидетельствуют цифры?</b><br/><br/>Налоговая усиливает не только количество проверок, но и их экономический эффект. Доначисления и штрафы становятся более выгодным инструментом, чем добровольное уточнение налоговых обязательств.<br/><br/><blockquote>Рост доначислений повышает давление на бизнес и увеличивает вероятность перехода споров в иную плоскость, в том числе, уголовно-правовую.</blockquote><br/><br/><tg-emoji emoji-id=\"5416117059207572332\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29EA1.png')\"><b>➡️</b></i></tg-emoji> <b>Налоговая выбирает дела с высоким финансовым результатом, поэтому бизнесу нужно действовать на опережение и заранее готовить обоснование выбранной налоговой структуры.</b><br/><br/><a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0\">#юристдлябизнеса</a> <a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D1%8B%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0_%D0%92%D0%95%D0%94\">#юристыдлябизнеса_ВЕД</a> <a href=\"?q=%23%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8\">#налоги</a> <a href=\"?q=%23%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8\">#проверки</a>",
       "media": [],
       "tg_url": "https://t.me/firmaved/576",
-      "views": 154,
+      "views": 170,
       "comments": []
     },
     {
@@ -71,7 +94,7 @@
       "text_html": "<tg-emoji emoji-id=\"5352965436340185924\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5353046679941557056\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5352763186330216011\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><tg-emoji emoji-id=\"5352667210991020571\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji><b>Всем, кто занимается ВЭД, будет полезно!</b><br/><br/><br/>Рассказываем об <u>Инкотермс</u> в дружественном канале «ВЭД-совет».<br/><br/>Подробнее об ошибках применения Инкотермс читайте <a href=\"https://t.me/+zLBzrBucb_o1ZWE6\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">здесь</a> (последний пост <a href=\"https://t.me/c/3263467530/72\" rel=\"noopener\" target=\"_blank\">https://t.me/c/3263467530/72</a>)",
       "media": [],
       "tg_url": "https://t.me/firmaved/575",
-      "views": 139,
+      "views": 144,
       "comments": []
     },
     {
@@ -81,7 +104,7 @@
       "text_html": "<tg-emoji emoji-id=\"5258156219419349336\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9386.png')\"><b>📆</b></i></tg-emoji> ВС признал переписку в мессенджере полноценным договором: белорусская компания согласовала с конкурсным управляющим рассрочку по возврату 45,9 млн руб. через сообщения, исполнила график — и больше ничего не должна.<br/><br/><b><tg-emoji emoji-id=\"5386630519582650487\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BA.png')\"><b>🔺</b></i></tg-emoji></b><b>О чем был спор?</b><br/><br/>В банкротстве ФГУП суд признал недействительными платежи на 45,9 млн руб. в пользу белорусской компании как сделки с предпочтением. Конкурсный управляющий сам составил график рассрочки и направил его компании в мессенджере. Компания приняла условия, перечислила деньги тремя траншами без просрочек, а конкурсный после первого платежа отозвал исполнительный лист.<br/><br/>Затем управляющий потребовал еще около 1,9 млн руб. процентов по <a href=\"https://www.consultant.ru/document/cons_doc_LAW_5142/93383099dc4f06165d8d4aac4eeb159db4f6da3d/\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">ст. 395 ГК</a>. Две инстанции <a href=\"https://kad.arbitr.ru/Kad/Card?number=%D0%9040-107430%2F2017\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">отказали</a>: компания выполнила все договоренности. Кассация взыскала проценты, решив, что переписка в мессенджере не образует письменного соглашения.<br/><br/><b><tg-emoji emoji-id=\"5386630519582650487\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BA.png')\"><b>🔺</b></i></tg-emoji></b><b>Что решил Верховный суд?</b><br/><br/>Экономколлегия <a href=\"https://kad.arbitr.ru/Document/Pdf/1b6d3e2d-ef4c-4b4f-8763-47a43e9594bb/0a973496-2c31-4f61-b717-d165cc7ed016/A40-107430-2017_20260320_Opredelenie.pdf?isAddStamp=True\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">отменила</a> постановление кассации. Договор в письменной форме можно заключить путем обмена электронными сообщениями, если они позволяют достоверно определить лицо, выразившее волю. Управляющий не оспаривал авторство переписки, компания приняла его оферту и исполнила график — значит, стороны заключили полноценный договор о порядке погашения долга.<br/><br/><blockquote>ВС подчеркнул: управляющий сам предложил график и не поставил вопрос о процентах. Компания имела все основания считать, что выплаты по графику закроют конфликт целиком. Требовать проценты после добросовестного исполнения таких договоренностей противоречит принципу добросовестности.<br/></blockquote><br/><br/>Суд истолковал соглашение как сделку, прекращающую спор в полном объеме — и по основному долгу, и по процентам. Решения первой и апелляционной инстанций оставлены в силе.<br/><br/><a href=\"?q=%23%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0\">#практика</a>",
       "media": [],
       "tg_url": "https://t.me/firmaved/573",
-      "views": 197,
+      "views": 201,
       "comments": [],
       "forwarded": {
         "label": "Право.ru",
@@ -110,7 +133,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/571",
-      "views": 188,
+      "views": 192,
       "comments": []
     },
     {
@@ -120,7 +143,7 @@
       "text_html": "<b>ФНС выпустила разъяснения, о том, когда льготный кредит облагается НДФЛ</b><br/><br/><tg-emoji emoji-id=\"5224607267797606837\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29884.png')\"><b>☄️</b></i></tg-emoji>  На прошлой неделе в СМИ появились материалы о необходимости уплаты НДФЛ при получении льготных кредитов, в частности, автокредитов под 0 %. <br/><br/>Новость настолько сильно взбудоражила общественность, что ФНС <a href=\"https://www.nalog.gov.ru/rn77/news/activities_fts/16608154/\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">срочно</a> выпустила разъяснения, когда у заемщика появляется обязанность заплатить налог в бюджет с кредитной экономии.<br/><br/><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji> <b>Основная мысль — сам по себе низкий процент по кредиту не образует обязанности по оплате НДФЛ. </b><br/><br/>Материальная выгода оценивается не с контексте размера ставки, а с учетом характера отношений между сторонами. Экономия на процентах признается доходом только при наличии зависимости между участниками договора займа.<br/><br/><tg-emoji emoji-id=\"5231012545799666522\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F948D.png')\"><b>🔍</b></i></tg-emoji> <b>Позиция ФНС и НК РФ</b><br/><br/>Ключевые условия возникновения налога:<br/><br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>НДФЛ 35% возникает, если кредит выдан работодателем или взаимозависимым лицом;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>при отсутствии такой связи материальная выгода не формируется — налог не начисляется;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>цель кредита значения не имеет — важен источник финансирования.<br/><br/><blockquote>Исключение: льготные кредиты на жилье, оформленные до 31.12.2024, освобождаются от НДФЛ.</blockquote><br/><br/><tg-emoji emoji-id=\"5416117059207572332\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29EA1.png')\"><b>➡️</b></i></tg-emoji> <b>Рынок активно использует льготные программы кредитования и субсидированные ставки, однако стоит помнить, что налоговые обязательства возникают в строго ограниченных случаях.<br/></b><br/><a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0\">#юристдлябизнеса</a> <a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D1%8B%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0_%D0%92%D0%95%D0%94\">#юристыдлябизнеса_ВЕД</a> <a href=\"?q=%23%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8\">#налоги</a> <a href=\"?q=%23%D0%BD%D0%B4%D1%84%D0%BB\">#ндфл</a>",
       "media": [],
       "tg_url": "https://t.me/firmaved/570",
-      "views": 162,
+      "views": 165,
       "comments": []
     },
     {
@@ -135,7 +158,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/569",
-      "views": 162,
+      "views": 164,
       "comments": []
     },
     {
@@ -145,7 +168,7 @@
       "text_html": "А пока вы определяетесь, продублируем нашу страничку <a href=\"https://vk.ru/firmaved\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">ВКонтакте,</a> где мы уже давно дублируем все новости.<br/><br/>Подписывайтесь!",
       "media": [],
       "tg_url": "https://t.me/firmaved/568",
-      "views": 146,
+      "views": 152,
       "comments": []
     },
     {
@@ -160,7 +183,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/566",
-      "views": 174,
+      "views": 176,
       "comments": []
     },
     {
@@ -175,14 +198,14 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/565",
-      "views": 153,
+      "views": 155,
       "comments": [
         {
           "author": "Анастасия",
           "text": "Добрый день, коллеги! А онлайн- формат будет?",
           "text_html": "Добрый день, коллеги! А онлайн- формат будет?",
           "date": "2026-03-19T07:05:08+00:00",
-          "avatar": "https://cdn4.telesco.pe/file/tVvnvU58eMYDHsrUjwc3EzoYsNyS_GMBFcpxlDh8E9CbIvLwKnVen2qUMxfnpbvG0_AKBYioDNdeBMqw-caCMOcadyUGgAHcGxPkWiClupNIBSes1co3fa4OIkDhsz3e1mgPEwhe8qEidZqYIC7jCsMFo5XpjO0y85XJjQqN2mn1vk72zAdbeEhT1dHUJoTHWJ2M8tzzDCkGeVvAT2DzyPnMdOIkgnMSqQfrF4ig9C7j1I2PcHPb7eAZ0wZB-3bdxlB-dbYVv0tNICQNFW-Y91Y2FB_UHRWiS5Nz9QTSaO6469vd-Wi4hzrFFPivfMWD8Xwd79yWMBvAu0GfPiOF6g.jpg"
+          "avatar": "https://cdn4.telesco.pe/file/v4vVDUGjb_tj3LHmBAFNoN58UW-3kjATpLbMJOcLec9AMqZS96CNxIWDFtL_EQFhF5x3LBpktfgwMpQY5-UsDM4j15uZ2yt0bM8Nkq2m88uWtjmZxZVIpQ4k7KiloNSGxVDBUnydxvM7AnjQc-WQNLnYbjHxIO_F37ESNTP3HmJ0hvZNdFpAQHgddkqnlqFXGSejAlgVjavdmKqUpQ6DTCy_JU8pyGGthEA9f2zZhtXb4YJyBffChoabHLlqZP-lXN3VtJG9RmZP3dLwpKFuueQw9LrnRQ1KuhMLEiFpu7cUzNLjG6-7-gXG1meLBAu6XOYXdT-USvccqFmNCsziyQ.jpg"
         },
         {
           "author": "ФИРМА ВЕД | Юристы для бизнеса | Chat",
@@ -196,7 +219,7 @@
           "text": "Да, тема очень актуальна, но я не в Омске",
           "text_html": "Да, тема очень актуальна, но я не в Омске",
           "date": "2026-03-19T09:19:02+00:00",
-          "avatar": "https://cdn4.telesco.pe/file/tVvnvU58eMYDHsrUjwc3EzoYsNyS_GMBFcpxlDh8E9CbIvLwKnVen2qUMxfnpbvG0_AKBYioDNdeBMqw-caCMOcadyUGgAHcGxPkWiClupNIBSes1co3fa4OIkDhsz3e1mgPEwhe8qEidZqYIC7jCsMFo5XpjO0y85XJjQqN2mn1vk72zAdbeEhT1dHUJoTHWJ2M8tzzDCkGeVvAT2DzyPnMdOIkgnMSqQfrF4ig9C7j1I2PcHPb7eAZ0wZB-3bdxlB-dbYVv0tNICQNFW-Y91Y2FB_UHRWiS5Nz9QTSaO6469vd-Wi4hzrFFPivfMWD8Xwd79yWMBvAu0GfPiOF6g.jpg"
+          "avatar": "https://cdn4.telesco.pe/file/v4vVDUGjb_tj3LHmBAFNoN58UW-3kjATpLbMJOcLec9AMqZS96CNxIWDFtL_EQFhF5x3LBpktfgwMpQY5-UsDM4j15uZ2yt0bM8Nkq2m88uWtjmZxZVIpQ4k7KiloNSGxVDBUnydxvM7AnjQc-WQNLnYbjHxIO_F37ESNTP3HmJ0hvZNdFpAQHgddkqnlqFXGSejAlgVjavdmKqUpQ6DTCy_JU8pyGGthEA9f2zZhtXb4YJyBffChoabHLlqZP-lXN3VtJG9RmZP3dLwpKFuueQw9LrnRQ1KuhMLEiFpu7cUzNLjG6-7-gXG1meLBAu6XOYXdT-USvccqFmNCsziyQ.jpg"
         },
         {
           "author": "ФИРМА ВЕД | Юристы для бизнеса | Chat",
@@ -221,7 +244,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/564",
-      "views": 148,
+      "views": 151,
       "comments": [],
       "forwarded": {
         "label": "Olga Idzon",
@@ -235,7 +258,7 @@
       "text_html": "<b>26.03.2026 в 18.30</b><br/><br/>Запишите эту дату!<br/><br/>Управляющий партнер фирмы «ВЕД» приглашает всех желающих на закрытую встречу клуба строителей, где Сергей расскажет о самовольных постройках и свой практике работы с ними.<br/><br/>Для записи на мероприятие пишите в личные сообщения (мероприятие бесплатное).",
       "media": [],
       "tg_url": "https://t.me/firmaved/563",
-      "views": 162,
+      "views": 166,
       "comments": []
     },
     {
@@ -245,7 +268,7 @@
       "text_html": "<b>Минутка юмора о налогах и формулировках из Постановлений Конституционного суда о налогах)))</b><br/>(Сказанное ниже является субъективным мнением автора канала и шуткой юмора, не имеющей цели дискредитации чьей-либо деловой репутации <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9881.png')\"><b>😁</b></i>)<br/><br/><blockquote>\"Конституционный суд отмечал, что законодатель, осуществляя свои дискреционные полномочия, вправе по-разному подходить к определению понятия \"доход\"</blockquote><br/><b> Да, да, мы это заметили <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9988.png')\"><b>🙈</b></i></b><br/><br/><blockquote>\"Между тем законодатель в пределах своих дискреционных полномочий вправе отдавать предпочтение интересам той или иной группе в конкретных обстоятельствах\"</blockquote><br/><b>Хотелось бы заранее знать список обстоятельств на будущее <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9881.png')\"><b>😁</b></i><br/><br/>И... та-дам </b><br/><br/><blockquote>\"Неоправданные фискальные притязания государства должны сдерживаться, помимо прочего, требованием о соразмерности налогообложения, являющимся одним из проявлений принципа справедливости в налоговой сфере\"</blockquote><br/><b>Уффф, ну наконец-то незнакомые слова пошли, а мы и не знали о таком принципе.<br/><br/>А вы знали? <i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9983.png')\"><b>🙃</b></i></b><br/><br/>P.S. Дискреционные полномочия - совокупность прав и обязанностей органа государственной власти, должностных лиц, предоставляющие возможность органу государственной власти или должностному лицу по своему усмотрению определить вид и содержание (полностью или частично) принимаемого управленческого решения, либо предоставляющие возможность выбора по своему усмотрению одного из нескольких предусмотренных ведомственным актом вариантов управленческих решений.<br/><br/><b>Надеюсь, теперь все стало понятнее</b><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09FA493.png')\"><b>🤓</b></i><br/><b>Пишите свои вопросы по налогам в комментариях.</b>",
       "media": [],
       "tg_url": "https://t.me/firmaved/562",
-      "views": 177,
+      "views": 182,
       "comments": []
     },
     {
@@ -262,22 +285,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/561",
-      "views": 142,
-      "comments": []
-    },
-    {
-      "id": 560,
-      "date": "",
-      "text": "Обеление экономики без создания барьеров для законопослушного бизнеса: новое послание Президента РФ ⚠️  Президент РФ на совещании МВД поручил активнее работать над обелением экономики и декриминализацией потребительского рынка. При этом отдельно отмечено, что законопослушному бизнесу нельзя создавать административные барьеры.  Обеление экономики остается одной из ключевых задач государственной политики. Работа ведется сразу по нескольким направлениям: 🟢 борьба с теневой занятостью и подменой трудовых отношений гражданско-правовыми договорами; 🟢 усиление контроля оборота наличных средств; 🟢 наведение порядка в таможенном администрировании; 🟢 легализация отдельных сегментов экономики.  Данные меры должны дополнительно привлечь средства в бюджет. Контролировать реализацию мер будут силовые ведомства. Фактически обозначен баланс между двумя задачами: ❌  снижение доли теневого сектора; ✔️  сохранение нормальных условий работы для легального бизнеса. Бизнесу стоит учитывать общий тренд — государство последовательно сокращает пространство для теневых схем. Чем прозрачнее структура расчетов, занятости и поставок, тем ниже риски претензий со стороны контролирующих органов. Источник #юристдлябизнеса   #юристыдлябизнеса_ВЕД   #бизнес   #экономика",
-      "text_html": "<b>Обеление экономики без создания барьеров для законопослушного бизнеса: новое послание Президента РФ</b><br/><br/><tg-emoji emoji-id=\"5420323339723881652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29AA0.png')\"><b>⚠️</b></i></tg-emoji> Президент РФ на совещании МВД поручил активнее работать над обелением экономики и декриминализацией потребительского рынка. При этом отдельно отмечено, что законопослушному бизнесу нельзя создавать административные барьеры. <br/><br/>Обеление экономики остается одной из ключевых задач государственной политики. Работа ведется сразу по нескольким направлениям:<br/><br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>борьба с теневой занятостью и подменой трудовых отношений гражданско-правовыми договорами;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>усиление контроля оборота наличных средств;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>наведение порядка в таможенном администрировании;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>легализация отдельных сегментов экономики. <br/><br/>Данные меры должны дополнительно привлечь средства в бюджет. Контролировать реализацию мер будут силовые ведомства.<br/><br/><b>Фактически обозначен баланс между двумя задачами:</b><br/><br/><tg-emoji emoji-id=\"5210952531676504517\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D8C.png')\"><b>❌</b></i></tg-emoji> снижение доли теневого сектора;<br/><tg-emoji emoji-id=\"5206607081334906820\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C94.png')\"><b>✔️</b></i></tg-emoji> сохранение нормальных условий работы для легального бизнеса.<br/><br/><b>Бизнесу стоит учитывать общий тренд — государство последовательно сокращает пространство для теневых схем. Чем прозрачнее структура расчетов, занятости и поставок, тем ниже риски претензий со стороны контролирующих органов.</b><br/><br/><a href=\"https://www.kommersant.ru/doc/8479961\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">Источник</a><br/><br/><a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0\">#юристдлябизнеса</a> <a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D1%8B%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0_%D0%92%D0%95%D0%94\">#юристыдлябизнеса_ВЕД</a> <a href=\"?q=%23%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81\">#бизнес</a> <a href=\"?q=%23%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0\">#экономика</a>",
-      "media": [
-        {
-          "type": "photo",
-          "url": "data/channels/firmaved/media/560_photo_0.jpg"
-        }
-      ],
-      "tg_url": "https://t.me/firmaved/560",
-      "views": 165,
+      "views": 144,
       "comments": []
     }
   ]
