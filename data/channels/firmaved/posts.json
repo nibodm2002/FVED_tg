@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T12:12:43.508545+00:00",
+  "generated_at": "2026-04-16T16:58:43.436392+00:00",
   "channel": {
     "title": "Фирма ВЕД | Юристы для бизнеса",
     "username": "firmaved",
@@ -22,7 +22,15 @@
       ],
       "tg_url": "https://t.me/firmaved/606",
       "views": 69,
-      "comments": []
+      "comments": [
+        {
+          "author": "Джун на фронте | IT Dev Log",
+          "text": "Что считается незначительной степенью вины?",
+          "text_html": "Что считается незначительной степенью вины?",
+          "date": "2026-04-16T15:02:07+00:00",
+          "avatar": "https://cdn4.telesco.pe/file/QNGWlQ2SCquBgxRZb0mVOWTvGtzeSgiauFOur1DujmevJUm7OMVgHAyk4lyVXE8BXRr3qyM6zGybyBNyibS_31HNgq9k6nXgz_NuleDTYO33B8DMNJZt6pGtc2ugagrZnAYPJvT9yvJdv183aRzMsfz3V01Rk-U-JCbSOtXDsXCchjXGHd1VgIOeYSs-mtkfU0Qs_Ytxq72VBLOQTVGIFdRSFxYyFITuJx1EVxFbfoYFHjC005aBL04NdeHTDB0ytw7D3cVV_13WCVPVXCtid3H2xEaXE9CvoKhvNNsszGfjzdStqpE5vFmB8P0Kx_NOhEZTZC_Zh0L3kEvDc4S5jQ.jpg"
+        }
+      ]
     },
     {
       "id": 605,
@@ -132,7 +140,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/588",
-      "views": 102,
+      "views": 103,
       "comments": []
     },
     {
