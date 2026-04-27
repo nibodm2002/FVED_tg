@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T04:01:30.576526+00:00",
+  "generated_at": "2026-04-27T08:41:54.379356+00:00",
   "channel": {
     "title": "Фирма ВЕД | Юристы для бизнеса",
     "username": "firmaved",
@@ -10,13 +10,28 @@
   "total_pages": 1,
   "posts": [
     {
+      "id": 624,
+      "date": "",
+      "text": "ДОПП, СПОТ, ЕАЭС, ФНС: как разобраться импортеру? ☄️ В апреле ФНС запустила тестирование системы СПОТ — нового механизма контроля поставок из стран ЕАЭС. Речь идет о смене логики налогового администрирования поставок из-за рубежа: контроль переносится на этап до ввоза товара, а НДС и акцизы фактически администрируются на раннем этапе. 📌   Как работает механизм Перед ввозом товара импортер или посредник: ▫️ подает ДОПП (документ о предстоящей поставке); ▫️ указывает данные о товаре, перевозке и участниках сделки; ▫️ вносит обеспечительный платеж; ▫️ получает QR-код. Без него на финальном этапе груз не пропустят через границу. ❗️ Как подать ДОПП ДОПП можно подать двумя способами: ▫️ через оператора электронного документооборота (ЭДО); ▫️ через сервис заявителя на сайте ФНС. Документ подписывается усиленной квалифицированной электронной подписью. В ответ система присваивает статус и формирует QR-код. Этапы внедрения ✔️   6 апреля – 29 июня 2026  — тестирование. ДОПП подается добровольно, обеспечительный платеж не требуется. Проверяются механизмы оформления документов и присвоения QR-кодов. ✔️   1 июля – 30 сентября 2026  — обязательный ДОПП. Документ становится обязательным, но без платежа. При отсутствии ДОПП товар пропускают, однако нарушения фиксируются, а сведения о поставке могут не учитываться в системе. ✔️   с 1 октября 2026  — полный режим. Обязательны ДОПП, QR-код и обеспечительный платеж. Без них товар не пропустят через границу. ➡️  СПОТ фактически сближает импорт из ЕАЭС с классическим таможенным контролем и исключает прежний упрощенный режим. Отсутствие QR-кода или ошибки в ДОПП могут привести к невозможности пересечения товаров границы и срыву поставки.  Бизнесу необходимо заранее перестроить процессы подготовки поставок до того, как система станет обязательной. До 1 октября есть возможность наладить процессы контроля данных и взаимодействия с перевозчиками. #юристдлябизнеса   #юристыдлябизнеса_ВЕД   #ВЭД   #импорт   #налоги   #СПОТ",
+      "text_html": "<b>ДОПП, СПОТ, ЕАЭС, ФНС: как разобраться импортеру?</b><br/><br/><tg-emoji emoji-id=\"5224607267797606837\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29884.png')\"><b>☄️</b></i></tg-emoji>В апреле ФНС запустила тестирование системы СПОТ — нового механизма контроля поставок из стран ЕАЭС.<br/><br/>Речь идет о смене логики налогового администрирования поставок из-за рубежа: контроль переносится на этап до ввоза товара, а НДС и акцизы фактически администрируются на раннем этапе.<br/><br/><tg-emoji emoji-id=\"5397782960512444700\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i></tg-emoji> <b>Как работает механизм</b><br/><br/>Перед ввозом товара импортер или посредник:<br/><br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>подает ДОПП (документ о предстоящей поставке);<br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>указывает данные о товаре, перевозке и участниках сделки;<br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>вносит обеспечительный платеж;<br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>получает QR-код. Без него на финальном этапе груз не пропустят через границу.<br/><br/><tg-emoji emoji-id=\"5274099962655816924\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><b>Как подать ДОПП</b><br/><br/>ДОПП можно подать двумя способами:<br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>через оператора электронного документооборота (ЭДО);<br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>через сервис заявителя на сайте ФНС.<br/><br/>Документ подписывается усиленной квалифицированной электронной подписью. В ответ система присваивает статус и формирует QR-код.<br/><br/><b>Этапы внедрения</b><br/><br/><tg-emoji emoji-id=\"5206607081334906820\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C94.png')\"><b>✔️</b></i></tg-emoji> <b>6 апреля – 29 июня 2026</b> — тестирование. ДОПП подается добровольно, обеспечительный платеж не требуется. Проверяются механизмы оформления документов и присвоения QR-кодов.<br/><br/><tg-emoji emoji-id=\"5206607081334906820\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C94.png')\"><b>✔️</b></i></tg-emoji> <b>1 июля – 30 сентября 2026</b> — обязательный ДОПП. Документ становится обязательным, но без платежа. При отсутствии ДОПП товар пропускают, однако нарушения фиксируются, а сведения о поставке могут не учитываться в системе.<br/><br/><tg-emoji emoji-id=\"5206607081334906820\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C94.png')\"><b>✔️</b></i></tg-emoji> <b>с 1 октября 2026</b> — полный режим. Обязательны ДОПП, QR-код и обеспечительный платеж. Без них товар не пропустят через границу.<br/><br/><tg-emoji emoji-id=\"5416117059207572332\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29EA1.png')\"><b>➡️</b></i></tg-emoji> СПОТ фактически сближает импорт из ЕАЭС с классическим таможенным контролем и исключает прежний упрощенный режим. Отсутствие QR-кода или ошибки в ДОПП могут привести к невозможности пересечения товаров границы и срыву поставки. <b><br/><br/>Бизнесу необходимо заранее перестроить процессы подготовки поставок до того, как система станет обязательной. До 1 октября есть возможность наладить процессы контроля данных и взаимодействия с перевозчиками.</b><br/><br/><a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0\">#юристдлябизнеса</a> <a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D1%8B%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0_%D0%92%D0%95%D0%94\">#юристыдлябизнеса_ВЕД</a> <a href=\"?q=%23%D0%92%D0%AD%D0%94\">#ВЭД</a> <a href=\"?q=%23%D0%B8%D0%BC%D0%BF%D0%BE%D1%80%D1%82\">#импорт</a> <a href=\"?q=%23%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8\">#налоги</a> <a href=\"?q=%23%D0%A1%D0%9F%D0%9E%D0%A2\">#СПОТ</a>",
+      "media": [
+        {
+          "type": "photo",
+          "url": "data/channels/firmaved/media/624_photo_0.jpg"
+        }
+      ],
+      "tg_url": "https://t.me/firmaved/624",
+      "views": 33,
+      "comments": []
+    },
+    {
       "id": 623,
       "date": "",
       "text": "Налоговую реконструкцию нельзя использовать для легализации расходов через «технические» компании — позиция Верховного суда 💱  Налоговая доначислила 97 млн руб. НДС, 95 млн руб. налога на прибыль и 21,4 млн руб. штрафа клининговой компании. Инспекция пришла к выводу, что налогоплательщик выстроил формальный документооборот с субподрядчиками, которые не исполняли работы и использовались для получения необоснованной налоговой выгоды. ❌  Налоговый орган указал, что работы фактически выполнялись самой компанией с привлечением неоформленных работников. Однако налогоплательщик оспорил доначисления по налогу на прибыль, поскольку инспекция не учла фактические понесенные затраты. По мнению налогоплательщика, даже при формальном характере документооборота затраты можно рассчитать и снизить налогооблагаемую базу. Суды трех инстанций согласились с доначислением НДС, но по налогу доначисления отменили. Суды указали, что не все затраты учтены и обязательства следует определить расчетным способом. ⚖️ Позиция Верховного суда РФ Экономколлегия  заняла  сторону инспекции и указала: 🟢 налоговая реконструкция допустима только при установлении фактического исполнителя и реальных параметров сделки; 🟢 издержки по операциям с «техническими» компаниями вне рамок законного оборота не признаются экономически оправданными; 🟢 использование нелегальной рабочей силы исключает признание таких затрат; 🟢 расчетный способ не может использоваться для легализации неподтвержденных расходов и при использовании незаконных схем.  ❗️ Почему это важно Верховный суд РФ обозначил пределы налоговой реконструкции: сам по себе довод о фактических затратах или их деловой необходимости не работает без раскрытия фактического исполнителя и подтверждения расходов. Реконструкция применяется только там, где можно установить реальную модель исполнения сделки. ➡️   Вывод Если контрагенты признаны «техническими», а фактическая структура исполнения не подтверждена, рассчитывать на учет расходов не получится — даже при наличии реальных затрат.  Таким образом, очень важно внимательно выбирать контрагентов по сделке, в противном случае есть риск отказа в учете расходов при исчислении налога на прибыль. #юристдлябизнеса   #юристыдлябизнеса_ВЕД   #налоги   #налоги_ВЕД",
       "text_html": "<b>Налоговую реконструкцию нельзя использовать для легализации расходов через «технические» компании — позиция Верховного суда</b><br/><br/><tg-emoji emoji-id=\"5402186569006210455\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B1.png')\"><b>💱</b></i></tg-emoji> Налоговая доначислила 97 млн руб. НДС, 95 млн руб. налога на прибыль и 21,4 млн руб. штрафа клининговой компании.<br/><br/><i>Инспекция пришла к выводу, что налогоплательщик выстроил формальный документооборот с субподрядчиками, которые не исполняли работы и использовались для получения необоснованной налоговой выгоды.</i><br/><br/><tg-emoji emoji-id=\"5210952531676504517\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D8C.png')\"><b>❌</b></i></tg-emoji> Налоговый орган указал, что работы фактически выполнялись самой компанией с привлечением неоформленных работников.<br/><br/>Однако налогоплательщик оспорил доначисления по налогу на прибыль, поскольку инспекция не учла фактические понесенные затраты. По мнению налогоплательщика, даже при формальном характере документооборота затраты можно рассчитать и снизить налогооблагаемую базу.<br/><br/>Суды трех инстанций согласились с доначислением НДС, но по налогу доначисления отменили. Суды указали, что не все затраты учтены и обязательства следует определить расчетным способом.<br/><br/><tg-emoji emoji-id=\"5400250414929041085\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A96.png')\"><b>⚖️</b></i></tg-emoji><b>Позиция Верховного суда РФ</b><br/><br/>Экономколлегия <a href=\"https://mkad.arbitr.ru/Document/Pdf/190c209a-9072-431f-ae4e-33066985549e/c87ce719-1f9d-454a-8765-05236f2bdfaa/A56-83561-2023_20260331_Opredelenie.pdf?isAddStamp=True\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">заняла</a> сторону инспекции и указала:<br/><br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>налоговая реконструкция допустима только при установлении фактического исполнителя и реальных параметров сделки;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>издержки по операциям с «техническими» компаниями вне рамок законного оборота не признаются экономически оправданными;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>использование нелегальной рабочей силы исключает признание таких затрат;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>расчетный способ не может использоваться для легализации неподтвержденных расходов и при использовании незаконных схем. <br/><br/><tg-emoji emoji-id=\"5274099962655816924\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji><b>Почему это важно</b><br/><br/>Верховный суд РФ обозначил пределы налоговой реконструкции: сам по себе довод о фактических затратах или их деловой необходимости не работает без раскрытия фактического исполнителя и подтверждения расходов.<br/><br/>Реконструкция применяется только там, где можно установить реальную модель исполнения сделки.<br/><br/><tg-emoji emoji-id=\"5416117059207572332\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29EA1.png')\"><b>➡️</b></i></tg-emoji> <b>Вывод</b><br/><br/>Если контрагенты признаны «техническими», а фактическая структура исполнения не подтверждена, рассчитывать на учет расходов не получится — даже при наличии реальных затрат. <br/><br/>Таким образом, очень важно внимательно выбирать контрагентов по сделке, в противном случае есть риск отказа в учете расходов при исчислении налога на прибыль.<br/><br/><a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0\">#юристдлябизнеса</a> <a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D1%8B%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0_%D0%92%D0%95%D0%94\">#юристыдлябизнеса_ВЕД</a> <a href=\"?q=%23%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8\">#налоги</a> <a href=\"?q=%23%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8_%D0%92%D0%95%D0%94\">#налоги_ВЕД</a>",
       "media": [],
       "tg_url": "https://t.me/firmaved/623",
-      "views": 62,
+      "views": 78,
       "comments": []
     },
     {
@@ -51,7 +66,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/617",
-      "views": 73,
+      "views": 80,
       "comments": [
         {
           "author": "ФИРМА ВЕД | Юристы для бизнеса | Chat",
@@ -65,21 +80,21 @@
           "text": "Татьяна, спасибо!)",
           "text_html": "Татьяна, спасибо!)",
           "date": "2026-04-23T07:43:03+00:00",
-          "avatar": "https://cdn4.telesco.pe/file/TeqzPDYTvG4qUBf7UyAKRusz4pXTrbCc5g5OrXY7T5AKBiXO__ZIUn7W01OIWM2SSTxssZFunNEnBPGUg5ssEQGCfZMgGx1RVR8kURbNTu2lUl2yCU3FbaGtW8-Pd73nse8UL8-KLpvDDhbUikWIoLTndMEjrCoguqR9sz_Z5lqq1o6dk5MzzM9MqZImWWiGUK1Efqv6zcLG0xxxiZuC_oCfhnnVg39dhLGAodHJkSa1KwIXjR4EVmIEN4ftNK_dDvDS8P5nKbgGZWD70y9sYbRdIYvnv84HhyiKoihHs3DxXaGkGdUphmDxitl7qCr4G67EMWYISrOJOtcNqZ3jfA.jpg"
+          "avatar": "https://cdn4.telesco.pe/file/TarOhcReNMtVZfSQ6Ew7JqIMHGM5Gca__GZcX8bhI0qPGoktKG5o3MkjcGB15gLKYd2l2ehXQjxP9PTnRUDeIRKN0wmSxaqow72xsu02EAyprfNPRJtMpQB-HqwZMJLQK7Wz1sLxo4KUpEm9NH2t9rRyb46VspZtjsiDnnAEKWmbMEgGQAgvyjkVeiVobuSZVXDDGlxCTBkygtNNvaEp_frNiintukhaT6dXDVKkcvEON20jA70gYUtjVR1MVA4YbiHZUR49zopB2gLfA5AlDNVqa1VULILXGflHdDWURJtpq7L0WFe-dTZwrZeJXNetMDanngHEemUSJbS3TrUeVg.jpg"
         },
         {
           "author": "Sergey Kozheykin",
           "text": "Безмерно горжусь нашей командой и очень ее люблю!)",
           "text_html": "Безмерно горжусь нашей командой и очень ее люблю!)",
           "date": "2026-04-23T07:43:37+00:00",
-          "avatar": "https://cdn4.telesco.pe/file/TeqzPDYTvG4qUBf7UyAKRusz4pXTrbCc5g5OrXY7T5AKBiXO__ZIUn7W01OIWM2SSTxssZFunNEnBPGUg5ssEQGCfZMgGx1RVR8kURbNTu2lUl2yCU3FbaGtW8-Pd73nse8UL8-KLpvDDhbUikWIoLTndMEjrCoguqR9sz_Z5lqq1o6dk5MzzM9MqZImWWiGUK1Efqv6zcLG0xxxiZuC_oCfhnnVg39dhLGAodHJkSa1KwIXjR4EVmIEN4ftNK_dDvDS8P5nKbgGZWD70y9sYbRdIYvnv84HhyiKoihHs3DxXaGkGdUphmDxitl7qCr4G67EMWYISrOJOtcNqZ3jfA.jpg"
+          "avatar": "https://cdn4.telesco.pe/file/TarOhcReNMtVZfSQ6Ew7JqIMHGM5Gca__GZcX8bhI0qPGoktKG5o3MkjcGB15gLKYd2l2ehXQjxP9PTnRUDeIRKN0wmSxaqow72xsu02EAyprfNPRJtMpQB-HqwZMJLQK7Wz1sLxo4KUpEm9NH2t9rRyb46VspZtjsiDnnAEKWmbMEgGQAgvyjkVeiVobuSZVXDDGlxCTBkygtNNvaEp_frNiintukhaT6dXDVKkcvEON20jA70gYUtjVR1MVA4YbiHZUR49zopB2gLfA5AlDNVqa1VULILXGflHdDWURJtpq7L0WFe-dTZwrZeJXNetMDanngHEemUSJbS3TrUeVg.jpg"
         },
         {
           "author": "Кристина Высоцкая",
           "text": "Поздравляю!!!  🌹",
           "text_html": "Поздравляю!!! <tg-emoji emoji-id=\"5472060472821818559\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F8CB9.png')\"><b>🌹</b></i></tg-emoji>",
           "date": "2026-04-23T10:36:13+00:00",
-          "avatar": "https://cdn4.telesco.pe/file/Gx2sr3s2WqTMXfvGmd-2Nnzc9oKhP6RXxpyG-Oec6y2OumM-nEyP7fZGuHPS7YvhgnEdSeYawI3b4V9TQ3Qf6miI2Ttaoi_9JPRLV-E3n_L8CXGWN7BB2a90fm-gFnfqyyTk2YisbHi5wy9nDF6-yGBmXFlwsFwprYBalD8qR6tmiMlv54g7vWhwFAAnfq3gyk8Lx3Z4-lytWUulc9W-Ejijfq0OyFFqH_u6fUNMgLUSnj_EeVjhFZv7yVlfsWCibkffsArx9_4IpzjK0OMMVaLR1siuSOaQsagSN0W-LB3BSkcDOeOGMbcXa7KDBPs07hTS96NKXQVaSz9WKgzeQA.jpg"
+          "avatar": "https://cdn4.telesco.pe/file/CUJPN1I0Tz-CMSeJrqhaEltf8SmTpQsQnV3jbI7Btl4pZ9XguS9iT3KKD1ba7gpfDPwoQKPbAFRQQLFTIls17sTEajnyuTv4yyN0mcycgZ14LB6NEo-yk3N-kv0PS49PsDE37scWhtBHNUDRRY9u2OGXjEoiwQ8VUFWp_c181ZBqLkVMo6egltEkVIYZyRQKQ9L0Y9lEWnuZmRL5-RT9jD2r1Ztu7wc20SeOwByEGZ2aMwJ0rgQIhHr-pTms6vQ-uh41pAmjXWgPCtZ3oC3ZMuFAWcqW3RU-bJQQDVPdPBe3ODv8gpNxJKHhtqI-H0cpKSG1QACBGXZ9BlB0p29a_g.jpg"
         },
         {
           "author": "ФИРМА ВЕД | Юристы для бизнеса | Chat",
@@ -97,7 +112,7 @@
       "text_html": "<b>Маркетплейсы становятся частью налогового контроля: комментарий партнера Правовой фирмы «ВЕД» Ольги Идзон для Forbes</b><br/><br/><tg-emoji emoji-id=\"5395444784611480792\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C8F.png')\"><b>✏️</b></i></tg-emoji> В деловом издании Forbes вышел материал о продлении ФНС эксперимента по цифровому обмену данными с маркетплейсами до конца 2026 года. <br/><br/><blockquote>Эксперимент показал свою эффективность, поэтому крупнейшие маркетплейсы и дальше будут выполнять функции посредников налогового контроля.</blockquote><br/><br/>Если система фиксирует признаки нарушений, продавцу через маркетплейс направляется информационное письмо с предложением дать пояснения. <br/><br/>Речь идет о типовых «проблемах» продавцов:<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>дробление бизнеса;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>неуплата НДС при УСН;<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>неполное отражение выручки (в том числе через агентские схемы);<br/><tg-emoji emoji-id=\"5379779965141130150\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F9FA2.png')\"><b>🟢</b></i></tg-emoji>неправомерное применение ПСН или режима самозанятого.<br/><br/>Ответ можно дать:<br/><tg-emoji emoji-id=\"5416117059207572332\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29EA1.png')\"><b>➡️</b></i></tg-emoji> напрямую в ФНС<br/><tg-emoji emoji-id=\"5416117059207572332\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29EA1.png')\"><b>➡️</b></i></tg-emoji> через маркетплейс, который выступает посредником и передает позицию налоговикам<br/><br/>По сути, рынок e-commerce переводят в режим полной прозрачности, где отклонения фиксируются системой.<br/><br/>В комментарии изданию Ольга Идзон обратила внимание на следующий риск: после завершения «экспериментального» этапа у налоговой появится больше инструментов давления:<br/><br/><tg-emoji emoji-id=\"5206607081334906820\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C94.png')\"><b>✔️</b></i></tg-emoji> возможна блокировка карточек товаров через маркетплейс;<br/><tg-emoji emoji-id=\"5206607081334906820\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29C94.png')\"><b>✔️</b></i></tg-emoji> период «предупреждений» может смениться инициированием стандартной проверки.<br/><br/><tg-emoji emoji-id=\"5274099962655816924\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29D97.png')\"><b>❗️</b></i></tg-emoji> Бизнесу необходимо уже сейчас провести внутренний налоговый аудит и разделить структуры так, чтобы не попасть под критерии дробления.<br/><br/><i>С полной версией материала вы можете ознакомиться по </i><a href=\"https://www.forbes.ru/finansy/559231-marketplejsy-prodolzat-peredavat-dannye-o-sellerah-v-fns?ysclid=mo1bwvy8x4323424780\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\"><i>ссылке.</i></a><br/><br/><a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0\">#юристдлябизнеса</a> <a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D1%8B%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0_%D0%92%D0%95%D0%94\">#юристыдлябизнеса_ВЕД</a> <a href=\"?q=%23%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8\">#налоги</a> <a href=\"?q=%23%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8_%D0%92%D0%95%D0%94\">#налоги_ВЕД</a> <a href=\"?q=%23%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9_%D0%A1%D0%9C%D0%98\">#комментарий_СМИ</a>",
       "media": [],
       "tg_url": "https://t.me/firmaved/616",
-      "views": 84,
+      "views": 91,
       "comments": []
     },
     {
@@ -124,7 +139,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/612",
-      "views": 81,
+      "views": 83,
       "comments": []
     },
     {
@@ -134,7 +149,7 @@
       "text_html": "Друзья!<br/>Все, что касается стройки и сделок с недвижимостью, мы будем публиковать на канале \"Строительный юрист\" в <a href=\"https://dzen.ru/ved_omsk\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">Дзен</a>.<br/><br/>Если вы хотите видеть только профильные посты по недвижимости и стройке или вам удобнее будет читать там, подписывайтесь.",
       "media": [],
       "tg_url": "https://t.me/firmaved/611",
-      "views": 84,
+      "views": 86,
       "comments": []
     },
     {
@@ -144,7 +159,7 @@
       "text_html": "<b>ФТС доначисляет пошлины на товары из ЕАЭС: новые риски для бизнеса</b><br/><br/><tg-emoji emoji-id=\"5224607267797606837\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29884.png')\"><b>☄️</b></i></tg-emoji> ФТС начала доначислять повышенные пошлины на товары из стран ЕАЭС, если они произведены в «недружественных» государствах. Ранее таможня ориентировалась на  письмо 2023 года, где указано, что при наличии статуса товара ЕАЭС доплата не требуется.<br/><br/><tg-emoji emoji-id=\"5397782960512444700\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i></tg-emoji> <b>В чем суть проблемы</b><br/><br/>С начала 2025 года фиксируются случаи, когда таможня применяет повышенные ставки, если страна производства относится к «недружественным». Они составляют от 15% до 50% и действуют до конца 2027 года.<br/><br/><blockquote>Под доначисления попадают товары из перечня, утвержденного постановлением Правительства 2022 года: одежда, косметика, продукты питания, алкоголь и другие категории.</blockquote><br/><br/>Рост затрат напрямую влияет на конечную цену. В целом по непродовольственным товарам повседневного спроса рост может составить 10–15%, в отдельных сегментах — до 30%. Уже сейчас компании сокращают ассортимент и отказываются от части позиций.<br/><br/><tg-emoji emoji-id=\"5400250414929041085\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29A96.png')\"><b>⚖️</b></i></tg-emoji> <b>Насколько это законно</b><br/><br/>Право ЕАЭС исходит из однократной уплаты ввозной пошлины. После этого товар должен свободно перемещаться внутри союза.<br/><br/>В законодательстве нет прямого механизма для повторного обложения. Судебная практика по этому вопросу только формируется. В ряде дел компаниям уже удалось оспорить такие доначисления и вернуть деньги.<br/><br/><tg-emoji emoji-id=\"5344040279550735492\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F94BB.png')\"><b>🔻</b></i></tg-emoji><b>Что делать</b><br/><br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>подтверждать, что товар приобретен в ЕАЭС уже со статусом товара союза;<br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>проверять страну производства и комплект документов;<br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>пересматривать логистику и структуру закупок;<br/><tg-emoji emoji-id=\"5451978202178139762\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E296AB.png')\"><b>▫️</b></i></tg-emoji>отдельно оценивать риски по товарам для маркетплейсов, прежде всего в одежде и косметике.<br/><br/>Отдельный вариант — прямые закупки из дружественных стран (Китай, Турция, Вьетнам), где риск спора о происхождении ниже.<br/><br/><tg-emoji emoji-id=\"5416117059207572332\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/E29EA1.png')\"><b>➡️</b></i></tg-emoji> <b>Фактически таможня смещает акцент со статуса товара ЕАЭС на страну его производства. Такой подход создает риск повторного обложения и меняет прежнюю модель работы внутри союза. Эта практика вписывается в более широкий тренд: усиливается контроль за перемещением товаров внутри ЕАЭС. Бизнесу важно учитывать этот фактор уже на этапе закупки: ошибка в происхождении товара может привести к существенным доначислениям.</b><br/><br/><a href=\"https://www.forbes.ru/finansy/559119-biznes-nacal-stalkivat-sa-s-novymi-tamozennymi-donacisleniami\" onclick=\"return confirm('Open this link?\\n\\n'+this.href);\" rel=\"noopener\" target=\"_blank\">Источник</a><br/><br/><a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0\">#юристдлябизнеса</a> <a href=\"?q=%23%D1%8E%D1%80%D0%B8%D1%81%D1%82%D1%8B%D0%B4%D0%BB%D1%8F%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0_%D0%92%D0%95%D0%94\">#юристыдлябизнеса_ВЕД</a> <a href=\"?q=%23%D0%92%D0%AD%D0%94\">#ВЭД</a> <a href=\"?q=%23%D0%92%D0%AD%D0%94_%D0%92%D0%95%D0%94\">#ВЭД_ВЕД</a>",
       "media": [],
       "tg_url": "https://t.me/firmaved/610",
-      "views": 86,
+      "views": 87,
       "comments": []
     },
     {
@@ -159,7 +174,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/609",
-      "views": 90,
+      "views": 92,
       "comments": []
     },
     {
@@ -174,7 +189,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/608",
-      "views": 99,
+      "views": 101,
       "comments": []
     },
     {
@@ -189,7 +204,7 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/607",
-      "views": 115,
+      "views": 117,
       "comments": []
     },
     {
@@ -204,14 +219,14 @@
         }
       ],
       "tg_url": "https://t.me/firmaved/606",
-      "views": 148,
+      "views": 149,
       "comments": [
         {
           "author": "Джун на фронте | IT Dev Log",
           "text": "Что считается незначительной степенью вины?",
           "text_html": "Что считается незначительной степенью вины?",
           "date": "2026-04-16T15:02:07+00:00",
-          "avatar": "https://cdn4.telesco.pe/file/nHsVqcH62VLRgono470RKP5tbP4sU6EpPru4Yl8M-O1RfVpMKy7f-ZumXHp31rwJmyGABKMuHjPLxNBoM-yOMZXsyywZyRyBSnaKRjbzB50gAGvIapkMrS-X8D0CUusKiBJAogtv1ngJe4weERSDTRA6BCNkdgxgNBdkxvkWS4zmAOBt3rFFIgAgviiaPxbQSW_P7C_CGdQV_OG9oVQP-4s1S-Qioun3L8hDZWRhlUS4KzPF0KKrG5Xx6V1XAKb5a1CHYozEDO-Wkn4yhlQ5kI7lk2GHYb99bdkNe3y3FhPv-8ioKs9GdEPJiQurp0sh2sVjtwlPv6TbjvUYiRR6rg.jpg"
+          "avatar": "https://cdn4.telesco.pe/file/eyZmSAHx5uAUXt90yhnM__RxCZA2isLROgWi_UgzDv8mSEGTGsmQwmRjjAjTij75cM_BEhefKvq0BgJ2LXDGDLG-dUr8eHbCnMsGZtKrBmI19IrmPq9xYBUKG6so9tX9AU7R_KoZVK_gKR9CwrcVybO1yEzZolya7qi0UgbJ3GTqnBJqoT2xdYH8MnxMgSuc6oJROCy9ko02jnfa2TQeqjgYe3mW9Yd8S0YcI7tHdUC1fDAulq0OucoPnyA2azgMkmuhtOgzS4Nn8BXAYXuqgvbk1L2kP4Ep6bIRI90uQu7GeGE1MU23XhNCFY0blGoyfdLaOI9opib2QNoyFiv0IA.jpg"
         },
         {
           "author": "ФИРМА ВЕД | Юристы для бизнеса | Chat",
@@ -229,42 +244,7 @@
       "text_html": "<tg-emoji emoji-id=\"5231235102415016985\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AB.png')\"><b>💫</b></i></tg-emoji><tg-emoji emoji-id=\"5229124701514646652\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AB.png')\"><b>💫</b></i></tg-emoji><tg-emoji emoji-id=\"5229133192664991231\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92AB.png')\"><b>💫</b></i></tg-emoji><tg-emoji emoji-id=\"5226970126875640496\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B0.png')\"><b>💰</b></i></tg-emoji><tg-emoji emoji-id=\"5228883972892674413\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B0.png')\"><b>💰</b></i></tg-emoji><tg-emoji emoji-id=\"5242325502542235730\"><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F92B8.png')\"><b>💸</b></i></tg-emoji><br/><br/><b>Общепит временно освободили от НДС</b><br/><br/>Госдума приняла поправки к Налоговому кодексу, направленные на смягчение последствий налоговой реформы для малого бизнеса.<br/><br/>Речь идет о предпринимателях на УСН и патенте.<br/><br/><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> <b>Что изменилось</b><br/><br/>— До конца 2026 года от НДС освобождаются предприниматели в сфере общепита<br/>— Льгота касается тех, кто стал плательщиком НДС только с 2026 года<br/><br/><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> <b>Условия применения</b><br/><br/>Чтобы воспользоваться освобождением, нужно соответствовать критериям:<br/><br/>— доход за 2025 год — не более 60 млн рублей<br/>— не менее 70% выручки — от услуг общественного питания<br/><br/><i class=\"emoji\" style=\"background-image:url('//telegram.org/img/emoji/40/F09F938C.png')\"><b>📌</b></i> <b>Дополнительно</b><br/><br/>Продлен срок подачи уведомления о переходе на УСН<br/>— до 1 июня 2026 года<br/>— для ИП, которые с 1 января 2026 года утратили право на патент<br/><br/>Источник:<br/><a href=\"https://sozd.duma.gov.ru/bill/1110069-8\" rel=\"noopener\" target=\"_blank\">https://sozd.duma.gov.ru/bill/1110069-8</a>",
       "media": [],
       "tg_url": "https://t.me/firmaved/605",
-      "views": 120,
-      "comments": []
-    },
-    {
-      "id": 599,
-      "date": "",
-      "text": "Если вы - подрядчик или заказчик на стройке, вы точно должно это увидеть и сохранить себе",
-      "text_html": "<div class=\"tgme_widget_message_text js-message_text\" dir=\"auto\">Если вы - подрядчик или заказчик на стройке, вы точно должно это увидеть и сохранить себе</div>",
-      "media": [
-        {
-          "type": "photo",
-          "url": "data/channels/firmaved/media/599_photo_0.jpg"
-        },
-        {
-          "type": "photo",
-          "url": "data/channels/firmaved/media/599_photo_1.jpg"
-        },
-        {
-          "type": "photo",
-          "url": "data/channels/firmaved/media/599_photo_2.jpg"
-        },
-        {
-          "type": "photo",
-          "url": "data/channels/firmaved/media/599_photo_3.jpg"
-        },
-        {
-          "type": "photo",
-          "url": "data/channels/firmaved/media/599_photo_4.jpg"
-        },
-        {
-          "type": "photo",
-          "url": "data/channels/firmaved/media/599_photo_5.jpg"
-        }
-      ],
-      "tg_url": "https://t.me/firmaved/599",
-      "views": 119,
+      "views": 121,
       "comments": []
     }
   ]
