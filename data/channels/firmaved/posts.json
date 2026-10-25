@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T23:18:13.775811+00:00",
+  "generated_at": "2026-10-25T04:47:00.067858+00:00",
   "channel": {
     "title": "Фирма ВЕД | Юристы для бизнеса",
     "username": "firmaved",
@@ -187,11 +187,7 @@
       "media": [],
       "tg_url": "https://t.me/firmaved/732",
       "views": 136,
-      "comments": [],
-      "forwarded": {
-        "label": "Финансы под контролем",
-        "href": "https://t.me/finansypodkontrolem/898"
-      }
+      "comments": []
     },
     {
       "id": 731,
@@ -226,11 +222,7 @@
       ],
       "tg_url": "https://t.me/firmaved/728",
       "views": 115,
-      "comments": [],
-      "forwarded": {
-        "label": "Марина Потапова | Честно платим #налоги",
-        "href": "https://t.me/chestno_platim/1492"
-      }
+      "comments": []
     },
     {
       "id": 727,
